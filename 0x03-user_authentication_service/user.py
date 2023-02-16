@@ -3,7 +3,10 @@
 create a SQLAlchemy model named User for a database table named users
 """
 
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from db import db
 
 
 class User(Base):
