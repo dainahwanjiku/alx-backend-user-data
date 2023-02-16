@@ -9,7 +9,7 @@ from sqlalchemy import Column, Integer, String
 
 class User(Base):
     __tablename__ = 'users'
-    """this is what is contained in the user class
+    """this is what is contained in the user class.
     """
     id = Column(Integer, primary_key=True)
     email = Column(String, nulliable=False)
