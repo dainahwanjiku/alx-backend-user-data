@@ -14,8 +14,8 @@ class User(Base):
     
     """this is what is contained in the user class.
     """
-    id = Base.Column(Integer, primary_key=True)
-    email = Base.Column(String(250), nullable=False)
-    hashed_password = Base.Column(String(250), nullable=False)
-    session_id = Base.Column(String(250), nullable=True)
-    reset_token = Base.Column(String(250), nullable=True)
+    id = Column(Integer, primary_key=True)
+    email = Column(String(250), nullable=False)
+    hashed_password = Column(String(250), nullable=False)
+    session_id = Column(String(250), nullable=True)
+    reset_token = Column(String(250), nullable=True)
