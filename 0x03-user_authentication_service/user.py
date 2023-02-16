@@ -3,12 +3,12 @@
 create a SQLAlchemy model named User for a database table named users
 """
 
-from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String
 
 
 class User(Base):
     __tablename__ = 'users'
+    
     """this is what is contained in the user class.
     """
     id = Column(Integer, primary_key=True)
