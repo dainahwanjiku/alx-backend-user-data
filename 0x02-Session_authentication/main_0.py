@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Main 0
+""" main file
 """
 import base64
 from api.v1.auth.basic_auth import BasicAuth
