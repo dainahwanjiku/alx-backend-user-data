@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module of session authenticating views
+"""module of session authenticating views
 """
 import os
 from typing import Tuple
